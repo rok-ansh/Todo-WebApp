@@ -10,3 +10,5 @@ def web_get_todos(filepath=FILEPATH):
 def web_write_todos(todos_arg, filepath=FILEPATH):
     with open("todos.txt", 'w') as file:
         write_todos = file.writelines(todos_arg)
+
+# print()
